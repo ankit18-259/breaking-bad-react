@@ -23,7 +23,7 @@ function App() {
         </div>
       </div>
       <Switch>
-        <Route exact path='/' component={PaginationTable} />
+        <Route path='/' component={PaginationTable} />
         <Route path='/:id' component={DetailPage} />
       </Switch>
     </Router>
