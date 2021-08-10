@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.hlRemove{
+  text-decoration: none;
+  color: white;
+}
+
+.body-bg {
+  background-color: black;
+  color: white;
+
+}
+
+.center{
+  text-align: center;
+}
+
+.padding-tb {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  border-bottom: 2px dotted white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

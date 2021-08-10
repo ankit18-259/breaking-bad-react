@@ -1,0 +1,12 @@
+.margin-10 {
+	margin: 10px;
+}
+
+.seasons:empty {
+	display: none;
+}
+
+
+.char-img{
+	width: 100%;
+}
