@@ -1,10 +1,5 @@
-import React, { Component } from 'react'
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import axios from 'axios'
-import Pagination from 'react-bootstrap/Pagination'
-import Table from 'react-bootstrap/Table'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PaginationTable from './components/PaginationTable.js'
 import DetailPage from './components/DetailPage.js'
 

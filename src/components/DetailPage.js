@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import Table from 'react-bootstrap/Table'
-import Pagination from 'react-bootstrap/Pagination'
-import Badge from 'react-bootstrap/Badge'
 import './css/styles.css'
-import { Markup } from 'interweave';
 import QuotesPage from './Quotes.js';
 
 const api = axios.create({
@@ -71,7 +67,7 @@ class DetailPage extends Component {
 						)}
 					</div>
 					<div className="col-sm-4">
-						{ this.state.data.map(data => <img className="char-img" src={ data.img } /> )}
+						{ this.state.data.map(data => <img className="char-img" src={ data.img } alt='' /> )}
 					</div>
 				</div>
 				<div className='row'>

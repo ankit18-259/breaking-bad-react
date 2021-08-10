@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Table from 'react-bootstrap/Table'
-import Pagination from 'react-bootstrap/Pagination'
-import {  Router, useHistory  } from 'react-router-dom'
 
 
 const api = axios.create({
