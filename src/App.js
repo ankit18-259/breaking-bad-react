@@ -13,7 +13,7 @@ function App() {
         <div className="container padding-tb">
           <div className="row">  
             <div className="col-sm-3">
-              <p><a href='/home'> << Home </a></p>
+              <p><a href='/home'> Home </a></p>
             </div>
             <div className="col-sm-6 center">
               <h1>BREAKING BAD</h1>
